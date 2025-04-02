@@ -166,5 +166,5 @@ view model =
           --     [ Html.text "Inputs: "
           --     ]
           img [ src "/src/assets/rr.gif" ] []
-        , Html.label [] [ Html.text "You got rick rolled" ]
+        , Html.label [] []
         ]
