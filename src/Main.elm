@@ -166,5 +166,6 @@ view model =
           --     [ Html.text "Inputs: "
           --     ]
           img [ src "/src/assets/rck.gif" ] []
+        , img [ src "/src/assets/me.HEIC" ] []
         , img [ src "/src/assets/rr.gif" ] []
         ]

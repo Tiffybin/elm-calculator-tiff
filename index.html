@@ -11340,7 +11340,6 @@ var $author$project$Main$update = F2(
 			{expressionStr: newExpressionsStr});
 	});
 var $elm$html$Html$img = _VirtualDom_node('img');
-var $elm$html$Html$label = _VirtualDom_node('label');
 var $elm$html$Html$Attributes$src = function (url) {
 	return A2(
 		$elm$html$Html$Attributes$stringProperty,
@@ -11357,10 +11356,23 @@ var $author$project$Main$view = function (model) {
 				$elm$html$Html$img,
 				_List_fromArray(
 					[
-						$elm$html$Html$Attributes$src('/src/assets/rr.gif')
+						$elm$html$Html$Attributes$src('/src/assets/rck.gif')
 					]),
 				_List_Nil),
-				A2($elm$html$Html$label, _List_Nil, _List_Nil)
+				A2(
+				$elm$html$Html$img,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$src('/src/assets/me.HEIC')
+					]),
+				_List_Nil),
+				A2(
+				$elm$html$Html$img,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$src('/src/assets/rr.gif')
+					]),
+				_List_Nil)
 			]));
 };
 var $author$project$Main$main = $elm$browser$Browser$sandbox(
