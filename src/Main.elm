@@ -165,7 +165,5 @@ view model =
           -- , Html.div []
           --     [ Html.text "Inputs: "
           --     ]
-          img [ src "/src/assets/rck.gif" ] []
-        , img [ src "/src/assets/me.HEIC" ] []
-        , img [ src "/src/assets/rr.gif" ] []
+          img [ src "https://www.icegif.com/wp-content/uploads/2023/01/icegif-162.gif"][]
         ]
